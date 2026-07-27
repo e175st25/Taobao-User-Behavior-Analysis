@@ -230,8 +230,8 @@ These high-frequency users represent potential VIP customers and demonstrate the
 Users were segmented based on purchase frequency thresholds:
 
 - Low: 1 purchase
-- Regular: 2–4 purchases
-- High-value: 5–14 purchases
+- Regular: 2-4 purchases
+- High-value: 5-14 purchases
 - VIP: more than 14 purchases
 
 The thresholds were selected based on purchase frequency distribution, where 4 purchases corresponds approximately to the 75th percentile and 14 purchases corresponds approximately to the 99th percentile.
