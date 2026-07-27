@@ -1,0 +1,15 @@
+# data files
+data/raw/
+data/processed/*.csv
+data/split/*.csv
+sql/*.csv
+
+# python cache
+__pycache__/
+*.pyc
+
+# vscode
+.vscode/
+
+# system
+.DS_Store
