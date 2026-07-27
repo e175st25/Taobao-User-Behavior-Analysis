@@ -75,7 +75,7 @@ This section analyzes user engagement patterns from both temporal and user-level
 #### Daily Activity Trend
 
 ![Daily Page View Trend](figures/Chapter1/Fig1_daily_page_view_trend.png)
-![Daily Other Behaviors Trend](figures/Chapter1/Fig2_daily_purchase_behaviors)
+![Daily Other Behaviors Trend](figures/Chapter1/Fig2_daily_purchase_behaviors.png)
 
 Daily behaviors were calculated from 2017-11-25 to 2017-12-03.
 
