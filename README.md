@@ -33,28 +33,17 @@ Due to file size limitations, raw data is not included in this repository.
 - VS Code
 
 ## Project Structure
+```text
 Taobao-User-Behavior-Analysis/
-├── data/
-│ - Raw and processed datasets (not included due to size limitations)
-
-├── sql/
-│ - SQL scripts for database setup and data analysis
-
+├── data/                  # Raw and processed datasets (not included)
+├── sql/                   # SQL scripts
 ├── scripts/
-│ ├── data_processing/
-│ │ - Scripts for data inspection, cleaning, transformation, and MySQL data loading
-│ │
-│ └── analysis/
-│ - Python scripts for user behavior analysis and visualization
-
-├── figures/
-│ - Visualization results organized by analysis chapter
-
+│   ├── data_processing/   # Data cleaning & MySQL loading
+│   └── analysis/          # User behavior analysis
+├── figures/               # Figures by chapter
 ├── README.md
-│ - Project documentation
-
 └── requirements.txt
-- Python dependencies
+```
 
 ## Project Workflow
 
@@ -85,8 +74,8 @@ This section analyzes user engagement patterns from both temporal and user-level
 
 #### Daily Activity Trend
 
-![Daily Page View Trend](figures/chapter1/Fig1_daily_page_view_trend.png)
-![Daily Other Behaviors Trend](figures/chapter1/Fig2_daily_purchase_behaviors)
+![Daily Page View Trend](figures/Chapter1/Fig1_daily_page_view_trend.png)
+![Daily Other Behaviors Trend](figures/Chapter1/Fig2_daily_purchase_behaviors)
 
 Daily behaviors were calculated from 2017-11-25 to 2017-12-03.
 
@@ -98,7 +87,7 @@ Key findings:
 
 #### Hourly Activity Pattern
 
-![Hourly Page View Heatmap](figures/chapter1/Fig4_Hourly_Page_View_Heatmap.png)
+![Hourly Page View Heatmap](figures/Chapter1/Fig4_Hourly_Page_View_Heatmap.png)
 
 Hourly analysis reveals strong daily usage patterns:
 
@@ -108,7 +97,7 @@ Hourly analysis reveals strong daily usage patterns:
 
 #### User Engagement Analysis
 
-![Average Page Views Per User](figures/chapter1/Fig8_Average_Page_Views_Per_User.png)
+![Average Page Views Per User](figures/Chapter1/Fig8_Average_Page_Views_Per_User.png)
 
 To distinguish whether increased traffic was caused by more users or higher engagement, average PV per active user was calculated.
 
@@ -126,9 +115,9 @@ This section evaluates category performance based on page views (PV), purchases 
 
 #### Category-level Performance
 
-![Top Categories by PV](figures/chapter2/top10_category_pv.png)
+![Top Categories by PV](figures/Chapter2/top10_category_pv.png)
 
-![Top Categories by Buy](figures/chapter2/top10_category_buy.png)
+![Top Categories by Buy](figures/Chapter2/top10_category_buy.png)
 
 The top-performing categories were identified separately based on page views and purchase volume.
 
